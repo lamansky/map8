@@ -1,0 +1,78 @@
+{
+  "name": "map8",
+  "version": "1.0.0",
+  "description": "The most feature-rich drop-in Map replacement ever. Supports sorting, nested layers, customizable loose key comparison, multiple values per key, value time-to-live expiration, and much more.",
+  "keywords": [
+    "map",
+    "keys",
+    "values",
+    "sort",
+    "sorting",
+    "sorted",
+    "nesting",
+    "nested",
+    "multi",
+    "multilevel",
+    "multiple",
+    "loose",
+    "comparison",
+    "ttl",
+    "time to live",
+    "expire",
+    "expiration"
+  ],
+  "author": {
+    "name": "Fr. John Lamansky",
+    "url": "lamansky.com"
+  },
+  "license": "MIT",
+  "repository": "lamansky/map8",
+  "main": "index.js",
+  "files": [],
+  "engines": {
+    "node": ">=8.3.0"
+  },
+  "dependencies": {
+    "2": "^1.0.2",
+    "arrify": "^1.0.1",
+    "bfind": "^1.1.0",
+    "binsert": "^1.0.0",
+    "empty-iterator": "^1.0.0",
+    "entries-array": "^1.1.0",
+    "entries-iterator": "^1.5.0",
+    "is-array-of-length": "^1.0.0",
+    "is-iterable": "^1.1.1",
+    "kdel": "^1.0.0",
+    "kedit": "^1.0.1",
+    "keys-array": "^1.0.0",
+    "keys-iterator": "^1.2.0",
+    "kget": "^1.0.0",
+    "khas": "^1.0.0",
+    "kset": "^2.0.0",
+    "moment": "^2.21.0",
+    "pfn": "^1.0.0",
+    "purge": "^1.0.0",
+    "values-array": "^1.0.0",
+    "values-iterator": "^1.2.0",
+    "vdel": "^1.1.0",
+    "vfn": "^1.0.0",
+    "vhas": "^1.0.0",
+    "weakish-map": "^1.2.0"
+  },
+  "devDependencies": {
+    "equals": "^1.0.5",
+    "eslint-config-lamansky": "^1.0.0",
+    "is-array-with": "^1.0.0",
+    "is-iterator": "^1.0.1",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
